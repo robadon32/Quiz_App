@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="name_field">Please Enter Name</string>
+
+    <string name="image_description">Lakers Logo</string>
+
+    <string name="question_one">How many championships do the Lakers have?</string>
+    <string name="question_two">What city were they from before moving to Los Angeles?</string>
+    <string name="question_three">What year was their most recent championship?</string>
+    <string name="question_four">Which Laker great played his whole career with the team?</string>
+    <string name="question_five">Who was the opponent they faced when they swept the finals?</string>
+    <string name="question_six">What year did the Lakers win their first championship?</string>
+    <string name="question_seven">The lakers hold the record for how many wins consecutively?</string>
+    <string name="question_eight">Who are their all time rivals?</string>
+    <string name="question_nine">What year were they founded?</string>
+    <string name="question_ten">Which group of laker greats have a statue outside of Staples Center</string>
+
+    <string name="choice_1_1">10</string>
+    <string name="choice_1_2">5</string>
+    <string name="choice_1_3">16</string>
+    <string name="choice_1_4">24</string>
+
+    <string name="choice_2_1">Minneapolis</string>
+    <string name="choice_2_2">San Francisco</string>
+    <string name="choice_2_3">Seattle</string>
+    <string name="choice_2_4">Indianapolis</string>
+
+    <string name="choice_3_1">2016</string>
+    <string name="choice_3_2">2010</string>
+    <string name="choice_3_3">2005</string>
+    <string name="choice_3_4">2002</string>
+
+    <string name="choice_4_1">Kobe Bryant</string>
+    <string name="choice_4_2">Shaquille O\'Niel</string>
+    <string name="choice_4_3">James Worthy</string>
+    <string name="choice_4_4">Wilt Chamberlain</string>
+
+    <string name="choice_5_1">Philadelphia 76ers</string>
+    <string name="choice_5_2">Orlando Magic</string>
+    <string name="choice_5_3">New Jersey Nets</string>
+    <string name="choice_5_4">New York Knicks</string>
+
+    <string name="choice_6_1">1950</string>
+    <string name="choice_6_2">1947</string>
+    <string name="choice_6_3">1949</string>
+    <string name="choice_6_4">1954</string>
+
+    <string name="choice_7_1">40</string>
+    <string name="choice_7_2">33</string>
+    <string name="choice_7_3">28</string>
+    <string name="choice_7_4">22</string>
+
+    <string name="question8hint">Please enter answer (City, Team)</string>
+
+
+    <string name="choice_9_1">1949</string>
+    <string name="choice_9_2">1947</string>
+    <string name="choice_9_3">1957</string>
+    <string name="choice_9_4">1938</string>
+
+    <string name="checkbox10_1">Magic Johnson</string>
+    <string name="checkbox10_2">Elgin Baylor</string>
+    <string name="checkbox10_3">Kareem Abdul Jabbar</string>
+    <string name="checkbox10_4">Shaquille O\'niel</string>
+    <string name="checkbox10_5">Kobe Bryant</string>
+    <string name="checkbox10_6">Jerry West</string>
+
+    <string name="submit_button">Submit</string>
+    <string name="email_button">Share</string>
+
+    <string name="start_button">Start</string>
+    <string name="start_question">You call yourself a Laker fan? Let\'s find out!</string>
+
+
+    <!--<string name="question_one">What team drafted Steph?</string>-->
+    <!--<string name="question_two">What pick was Steph?</string>-->
+    <!--<string name="question_three">What college did he attend?</string>-->
+    <!--<string name="question_four">How many kids does he have?</string>-->
+    <!--<string name="question_five">What sneaker company is he signed to?</string>-->
+    <!--<string name="question_six">How many championships does he have?</string>-->
+    <!--<string name="question_seven">He was voted unanimously for which award?</string>-->
+    <!--<string name="question_eight">Where did he grow up?</string>-->
+    <!--<string name="question_nine">When is his birthday?</string>-->
+    <!--<string name="question_ten">What are the names of his kids?</string>-->
+
+    <!--<string name="choice_1_1">New York Knicks</string>-->
+    <!--<string name="choice_1_2">Minnesota Timberwolves</string>-->
+    <!--<string name="choice_1_3">Golden State Warriors</string>-->
+    <!--<string name="choice_1_4">Cleveland Caveliers</string>-->
+
+    <!--<string name="choice_2_1">7</string>-->
+    <!--<string name="choice_2_2">1</string>-->
+    <!--<string name="choice_2_3">12</string>-->
+    <!--<string name="choice_2_4">4</string>-->
+
+    <!--<string name="choice_3_1">Syracuse</string>-->
+    <!--<string name="choice_3_2">Davidson</string>-->
+    <!--<string name="choice_3_3">Duke</string>-->
+    <!--<string name="choice_3_4">Kentucky</string>-->
+
+    <!--<string name="choice_4_1">2</string>-->
+    <!--<string name="choice_4_2">1</string>-->
+    <!--<string name="choice_4_3">0</string>-->
+    <!--<string name="choice_4_4">3</string>-->
+
+    <!--<string name="choice_5_1">Addidas</string>-->
+    <!--<string name="choice_5_2">Nike</string>-->
+    <!--<string name="choice_5_3">Under Armour</string>-->
+    <!--<string name="choice_5_4">Jordan</string>-->
+
+    <!--<string name="choice_6_1">5</string>-->
+    <!--<string name="choice_6_2">1</string>-->
+    <!--<string name="choice_6_3">2</string>-->
+    <!--<string name="choice_6_4">3</string>-->
+
+    <!--<string name="choice_7_1">Allstar</string>-->
+    <!--<string name="choice_7_2">Most Valuable Player</string>-->
+    <!--<string name="choice_7_3">3 Point Champion</string>-->
+    <!--<string name="choice_7_4">Most Improved Player</string>-->
+
+    <!--<string name="question8hint">Please enter answer (City State)</string>-->
+
+
+    <!--<string name="choice_9_1">January 27</string>-->
+    <!--<string name="choice_9_2">March 14</string>-->
+    <!--<string name="choice_9_3">May 10</string>-->
+    <!--<string name="choice_9_4">November 19</string>-->
+
+    <!--<string name="checkbox10_1">Rumi Curry</string>-->
+    <!--<string name="checkbox10_2">Rita Curry</string>-->
+    <!--<string name="checkbox10_3">Riley Curry</string>-->
+    <!--<string name="checkbox10_4">Reina Curry</string>-->
+    <!--<string name="checkbox10_5">Rene Curry</string>-->
+    <!--<string name="checkbox10_6">Ryan Curry</string>-->
+
+</resources>
