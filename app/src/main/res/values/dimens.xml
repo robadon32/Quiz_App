@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_header_height">130dp</dimen>
+    <dimen name="text_view_questions_margin">10dp</dimen>
+    <dimen name="radio_group_margin">10dp</dimen>
+    <dimen name="edit_text_question_margin">10dp</dimen>
+    <dimen name="checkbox_choices_margin">10dp</dimen>
+    <dimen name="submit_button_margin_left">56dp</dimen>
+    <dimen name="submit_button_margin_top">10dp</dimen>
+    <dimen name="submit_button_margin_bottom">16dp</dimen>
+    <dimen name="submit_button_width">100dp</dimen>
+    <dimen name="share_button_margin_right">56dp</dimen>
+    <dimen name="share_button_margin_top">10dp</dimen>
+    <dimen name="share_button_margin_bottom">16dp</dimen>
+    <dimen name="share_button_width">100dp</dimen>
+    <dimen name="start_text_view_margin_left">10dp</dimen>
+    <dimen name="start_text_view_margin_bottom">17dp</dimen>
+    <dimen name="start_text_size">25sp</dimen>
+    <dimen name="start_button_margin_bottom">126dp</dimen>
+
+
+</resources>
