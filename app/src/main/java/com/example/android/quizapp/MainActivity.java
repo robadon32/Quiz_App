@@ -17,8 +17,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int scoreOne; int scoreTwo; int scoreThree; int scoreFour; int scoreFive; int scoreSix;
-    int scoreSeven; int scoreEight; int scoreNine; int scoreTen; int total = 10; int endResult;
+    private int total = 10;
+    private int point = 0;
 
     EditText editText; CheckBox checkBox1; CheckBox checkBox2; CheckBox checkBox3; CheckBox checkBox4;
     CheckBox checkBox5; CheckBox checkBox6; RadioGroup groupOne; RadioGroup groupTwo; RadioGroup groupThree;
@@ -46,17 +46,43 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*
+    Getter method returns the value of points.
+     */
+    public int showPoints(){
+
+        return point;
+    }
+
+    /*
+    Getter method returns the value of total.
+     */
+    public int getTotal(){
+        return total;
+    }
+
+    /*
+    Setter method sets the value of total if the value is greater than 1.
+     */
+    public void setTotal(int t) {
+        if (t > 0 ){
+            total = t;
+        }
+    }
+
+    /*
     Method to add the points you received for each question and Returns the results.
      */
-    public int calculateResults (){
+    private int calculateResults (){
 
-        scoreOne = questionOne(); scoreTwo = questionTwo(); scoreThree = questionThree();
-        scoreFour = questionFour(); scoreFive = questionFive(); scoreSix = questionSix();
-        scoreSeven = questionSeven(); scoreEight = questionEight(); scoreNine = questionNine();
-        scoreTen = questionTen();
+        int scoreOne = questionOne(); int scoreTwo = questionTwo(); int scoreThree = questionThree();
+        int scoreFour = questionFour(); int scoreFive = questionFive(); int scoreSix = questionSix();
+        int scoreSeven = questionSeven(); int scoreEight = questionEight(); int scoreNine = questionNine();
+        int scoreTen = questionTen();
 
-        return endResult = scoreOne + scoreTwo + scoreThree + scoreFour + scoreFive + scoreSix
+        int results = scoreOne + scoreTwo + scoreThree + scoreFour + scoreFive + scoreSix
                 + scoreSeven + scoreEight + scoreNine + scoreTen;
+
+        return results;
     }
 
     /*
@@ -104,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
 
         int result = calculateResults();
 
-         if (result <= 3){
+        if (result <= 3){
             Toast toast = Toast.makeText(this, "You got " + result + "/" + total + " " +
                     "You are a BANDWAGON fan! You might not want to email these result yikes!", Toast.LENGTH_LONG);
             toast.setGravity(Gravity.CENTER,0,0);
@@ -173,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         else
-        intent.setType("*/*");
+            intent.setType("*/*");
         intent.putExtra(Intent.EXTRA_TEXT, "Name: " + name + "\n" + "Results: " + result +
                 " out of " + total + "\n" + "Thank you for taking this quiz!");
         if (intent.resolveActivity(getPackageManager()) != null) {
@@ -205,7 +231,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public int questionOne() {
 
-        int score = 0;
+        int score = this.point;
 
         int getState = groupOne.getCheckedRadioButtonId();
 
@@ -229,7 +255,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public int questionTwo() {
 
-        int score = 0;
+        int score = this.point;
 
         int getState = groupTwo.getCheckedRadioButtonId();
 
@@ -253,7 +279,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public int questionThree() {
 
-        int score = 0;
+        int score = this.point;
 
         int getState = groupThree.getCheckedRadioButtonId();
 
@@ -277,7 +303,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public int questionFour() {
 
-        int score = 0;
+        int score = this.point;
 
         int getState = groupFour.getCheckedRadioButtonId();
 
@@ -301,7 +327,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public int questionFive() {
 
-        int score = 0;
+        int score = this.point;
 
         int getState = groupFive.getCheckedRadioButtonId();
 
@@ -325,7 +351,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public int questionSix() {
 
-        int score = 0;
+        int score = this.point;
 
         int getState = groupSix.getCheckedRadioButtonId();
 
@@ -349,7 +375,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public int questionSeven() {
 
-        int score = 0;
+        int score = this.point;
 
         int getState = groupSeven.getCheckedRadioButtonId();
 
@@ -373,7 +399,8 @@ public class MainActivity extends AppCompatActivity {
      */
     public int questionEight(){
 
-        int score = 0;
+        int score = this.point;
+
         EditText answer = findViewById(R.id.name_field2);
         String getAnswer = answer.getText().toString();
 
@@ -395,7 +422,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public int questionNine() {
 
-        int score = 0;
+        int score = this.point;
 
         int getState = groupNine.getCheckedRadioButtonId();
 
@@ -419,7 +446,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public int questionTen(){
 
-        int score = 0;
+        int score = this.point;
 
         boolean state1 = checkBox1.isChecked(); boolean state2 = checkBox2.isChecked();
         boolean state3 = checkBox3.isChecked(); boolean state4 = checkBox4.isChecked();
